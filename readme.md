@@ -1,16 +1,12 @@
-**🖥️ Project Nexus — Windows Server 2025 & Active Directory Administration Lab**
+# 🖥️ Project Nexus — Windows Server 2025 & Active Directory Administration Lab
 
----
-
-**📌 Overview**
+## 📌 Overview
 
 Project Nexus is a hands-on Windows systems administration lab designed to demonstrate the deployment, configuration, and administration of a small enterprise Windows environment.
 
 The project simulates two office locations, Dublin and London, using Windows Server 2025 and Windows 11 Pro. It focuses on Active Directory administration, identity and access management, Group Policy, file services, workstation security, and practical troubleshooting.
 
----
-
-**🎯 Objectives**
+## 🎯 Objectives
 
 - Deploy and configure Windows Server 2025
 - Implement Active Directory Domain Services
@@ -25,9 +21,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Test authorised and unauthorised access
 - Document administrative procedures and verification results
 
----
-
-**🧱 Environment**
+## 🧱 Environment
 
 - Windows Server 2025 virtual machine
 - Windows 11 Pro virtual machine
@@ -39,11 +33,9 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - SMB file sharing
 - PowerShell administration
 
----
+## 🔧 Key Tasks Performed
 
-**🔧 Key Tasks Performed**
-
-**🌐 Network & Server Configuration**
+### 🌐 Network & Server Configuration
 
 - Configured VMware NAT and isolated internal networking
 - Configured server and workstation network interfaces
@@ -51,7 +43,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Configured DNS and DHCP services
 - Verified connectivity, name resolution, and network communication
 
-**🏢 Active Directory Deployment**
+### 🏢 Active Directory Deployment
 
 - Installed Active Directory Domain Services
 - Promoted Windows Server 2025 to a domain controller
@@ -61,7 +53,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Created and managed domain users, groups, and computer accounts
 - Joined a Windows 11 workstation to the domain
 
-**🔐 Identity & Access Management**
+### 🔐 Identity & Access Management
 
 - Created departmental security groups
 - Organised users and computers according to office location
@@ -69,7 +61,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Verified domain authentication
 - Tested authorised and unauthorised resource access
 
-**⚙️ Group Policy Administration**
+### ⚙️ Group Policy Administration
 
 - Created and linked computer and user Group Policy Objects
 - Configured workstation security settings
@@ -78,7 +70,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Applied policies according to office location and user department
 - Verified policy application using `gpresult`
 
-**📁 File Services & Permissions**
+### 📁 File Services & Permissions
 
 - Created departmental SMB shares
 - Configured share and NTFS permissions
@@ -87,7 +79,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Used item-level targeting for departmental drive access
 - Tested access to authorised and unauthorised shares
 
-**🛡️ Workstation Security**
+### 🛡️ Workstation Security
 
 - Configured Windows Defender Firewall settings through Group Policy
 - Verified firewall profile status on the domain workstation
@@ -95,7 +87,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Demonstrated blocking of a specified test application
 - Verified that unrestricted applications continued to operate normally
 
-**🧪 Testing & Verification**
+### 🧪 Testing & Verification
 
 - Verified domain connectivity and DNS resolution
 - Confirmed successful domain authentication
@@ -105,9 +97,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Performed authorised and unauthorised access tests
 - Documented configuration results and troubleshooting observations
 
----
-
-**🧠 Key Learnings**
+## 🧠 Key Learnings
 
 - Active Directory provides a centralised method for managing users, computers, and access
 - Organizational Units help structure an enterprise environment and apply targeted policies
@@ -119,9 +109,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - PowerShell improves administrative efficiency and supports repeatable management tasks
 - Troubleshooting requires checking configuration, connectivity, permissions, and policy application systematically
 
----
-
-**🚀 Outcome**
+## 🚀 Outcome
 
 This project demonstrates practical Windows systems administration skills, including Active Directory deployment, identity and access management, Group Policy administration, file services, workstation security, and PowerShell-based verification.
 
