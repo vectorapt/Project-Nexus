@@ -1,5 +1,6 @@
 **🖥️ Project Nexus — Windows Server 2025 & Active Directory Administration Lab**
-***
+
+---
 
 **📌 Overview**
 
@@ -42,7 +43,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 
 **🔧 Key Tasks Performed**
 
-• **🌐 Network & Server Configuration**
+**🌐 Network & Server Configuration**
 
 - Configured VMware NAT and isolated internal networking
 - Configured server and workstation network interfaces
@@ -50,7 +51,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Configured DNS and DHCP services
 - Verified connectivity, name resolution, and network communication
 
-• **🏢 Active Directory Deployment**
+**🏢 Active Directory Deployment**
 
 - Installed Active Directory Domain Services
 - Promoted Windows Server 2025 to a domain controller
@@ -60,7 +61,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Created and managed domain users, groups, and computer accounts
 - Joined a Windows 11 workstation to the domain
 
-• **🔐 Identity & Access Management**
+**🔐 Identity & Access Management**
 
 - Created departmental security groups
 - Organised users and computers according to office location
@@ -68,7 +69,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Verified domain authentication
 - Tested authorised and unauthorised resource access
 
-• **⚙️ Group Policy Administration**
+**⚙️ Group Policy Administration**
 
 - Created and linked computer and user Group Policy Objects
 - Configured workstation security settings
@@ -77,7 +78,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Applied policies according to office location and user department
 - Verified policy application using `gpresult`
 
-• **📁 File Services & Permissions**
+**📁 File Services & Permissions**
 
 - Created departmental SMB shares
 - Configured share and NTFS permissions
@@ -86,7 +87,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Used item-level targeting for departmental drive access
 - Tested access to authorised and unauthorised shares
 
-• **🛡️ Workstation Security**
+**🛡️ Workstation Security**
 
 - Configured Windows Defender Firewall settings through Group Policy
 - Verified firewall profile status on the domain workstation
@@ -94,7 +95,7 @@ The project simulates two office locations, Dublin and London, using Windows Ser
 - Demonstrated blocking of a specified test application
 - Verified that unrestricted applications continued to operate normally
 
-• **🧪 Testing & Verification**
+**🧪 Testing & Verification**
 
 - Verified domain connectivity and DNS resolution
 - Confirmed successful domain authentication
